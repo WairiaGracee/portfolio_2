@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('images/yogendra-singh-HrpYHchKb5Y-unsplash.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 10px 5%;
+    width: 90%;
+}
+
+nav{
+    margin:50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    flex-basis: 20%;
+
+}
+.logo h1{
+    font-size: 3em;
+    letter-spacing: 1px;
+    color: #033d80;
+}
+
+.links{
+    flex-basis: 65%;
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    margin: 3px 20px;
+}
+
+.links li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #033d80;
+}
+
+.content{
+    width: 60%;
+    margin: 70px 0;
+
+}
+.content h5{
+    font-size: 3em;
+    color: #033d80;
+    line-height: 40px;
+}
+
+.content h3{
+    font-size: 5em;
+    color: #033d80;
+    margin: 70px 0 50px;
+}
+.content h3 span{
+    color: #2273ce;
+}
+
+.btn{
+    padding: 25px 15px;
+    margin:45px 0;
+    border: 1.5px solid #033d80;
+    border-radius: 10px;
+    width: 190px;
+    height: 85px;
+    background-color:transparent;
+    color: #033d80;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:#033d80;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* About section styles */
+#aboutMe{
+    background-color: rgba(233, 244, 244, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-holder{
+    flex-basis: 35%;
+}
+
+.image-holder img{
+    border-radius: 50%;
+}
+
+.content-holder{
+    flex-basis: 55%;
+    height:90vh;
+    margin: 50px 0 0;
+}
+
+.title{
+    height: 50px;
+    margin-bottom: 25px;
+}
+.title h1{
+    font-size: 3em;
+    letter-spacing: 1px;
+    color: #033d80;
+}
+
+p{
+    font-size: 1.1em;
+    color: #033d80;
+    letter-spacing: 1.5px;
+}
